@@ -37,25 +37,7 @@ btn.addEventListener("click", (evt) => {
             msg.innerHTML = `Bhai uska shaadi hone wala hai to sapne dekhna band karr`;
         }
 
-        else if(name === "arghya" && partnerName === "gopika"){
-
-            msg.innerHTML = `The love bond between ${name} and ${partnerName} is 10000000000%`;
-
-            msg1.classList.add("class","msg","msgg")
-            // msg1.innerHTML = `They are made for each other`;
-
-            msg1.innerHTML = loveArray[generateRandomNumber1()]
-        }
-
-        else if(name === "mehtab" && partnerName === "heena"){
-
-            msg.innerHTML = `The relationship between ${name} and ${partnerName} is brother and sister relationship `;
-
-            msg1.classList.add("class","msg","msgg")
-            // msg1.innerHTML = `They are made for each other`;
-
-            msg1.innerHTML = loveArray[generateRandomNumber1()]
-        }
+        
         
         else {
             msg.innerHTML = `<p>The love between ${name} and ${partnerName} is ${generateRandomNumber()}%</p>`;
